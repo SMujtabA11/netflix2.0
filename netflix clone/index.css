@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./assests/netflix\ bg.jpg");
+}
+nav{
+    width: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 90px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+main{
+color: white;
+text-align: center;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+height: 80vh;
+font-weight: bolder;
+}
+#contentDiv>h2{
+    font-size: clamp(3rem, 3vw, 4rem);
+}
+#first-para{
+padding-top: 10px;
+}
+#second-para{
+    padding-top: 10px;
+    line-height: 25px;
+}
+#searchBar{
+    display:block;
+    padding: 15px;
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius:5px;
+    margin: auto;
+    margin-top: 10px;
+    width:clamp(15rem, 3vw, 20rem);
+}
+#contentDivBtn{
+    width: 160px;
+    height: 48px;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 20px;   
+}
+.curved-line {
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    padding: 40px;
+    clip-path: polygon(0 100%, 50% 50%, 100% 100%); /* Creates a curve */
+}
